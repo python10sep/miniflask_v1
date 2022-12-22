@@ -14,6 +14,7 @@ app = Flask(__name__)
 # `route` decorator allows us to bind function to certain `relative URL path`.
 @app.route("/")
 def hello_world():
+    print(f"{__name__} running")
     return "<p>Hello, World!</p>"
 
 
