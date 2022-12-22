@@ -1,3 +1,15 @@
+"""
+#############################################################################
+TOPIC :
+1. URL redirection using `redirect` function
+2. API endpoint with form-data
+3. Generating POST request from HTML form
+4. Right click in chrome and inspect elements to see "network" actions
+
+#############################################################################
+"""
+
+
 from flask import Flask, request, url_for, redirect
 
 
